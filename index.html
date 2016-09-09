@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sample Web page</title>
+    <meta name="viewport">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="header">
+    <div class="navbar transparent navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <!--<a class="navbar-brand" href="#">My World Tour</a>-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse data-target=".navbar-menubuilder">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                        <div class="collapse navbar-collapse navbar-menubuilder">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li id="options"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbspHome</a> </li>
+                                <li id="options"><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbspContact Us</a> </li>
+                                <li id="options"><a href="#">About Us</a> </li>
+                                <li id="options">
+                                    <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Login</a>
+                                        <form class="form" id="formlogin">
+                                            <input type="text" name="username" id="username" placeholder="E-mail">
+                                            <input type="password" name="password" id="password" placeholder="Password"><br>
+                                            <button type="button" class="btn btn-success">Log In</button>
+                                        </form>
+                                </li>
+                            </ul>
+
+
+
+                         </div>
+                   </div>
+             </div>
+        </div>
+     </div>
+     </div>
+  <form>
+    <div class="container">
+        <div class="signupform">
+            <div class="form-vertical">
+                <h2>Register here!</h2> 
+                <p>To join with us.<span class="font-family:" times new roman", times, serif></span></p>
+                <div class="form-group">
+                    <label class="sr-only" for="fname">First Name</label>
+                    <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="lname">Last Name</label>
+                    <input type="text" class="form-control" name="lname" id="lname" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Contact no">Email</label>
+                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="Contact number">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="pwd">Password</label>
+                    <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="repwd">Re-enter Password</label>
+                    <input type="password" pattern="[0-9]" class="form-control" name="repwd" id="repwd" placeholder="Re-enter Password">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success">Submit</button>
+                    <button type="button" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+         </div> 
+        </div> 
+     </form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-image: url('Images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.navbar > li > a {
+    background-color: transparent;
+    border-bottom-color: transparent;
+    color:white;
+    
+}
+
+.nav navbar-nav navbar-right {
+    float: right;
+}
+
+.navbar-brand {
+    background-color: rgba(45,45,0,0);    
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+#options{   
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+            
+}
+
+.btn-custom {
+    color: white;
+    background-color: transparent;
+
+}
+
+.sr-only {
+    
+}
+
+.glyphicon {
+    color: white;
+}
+
+.signupform {
+    color: white;
+    width: 300px;
+    float: right;
+    bottom: 50px;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:20px;   
+}

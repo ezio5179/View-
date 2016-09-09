@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{80414CF2-67AC-436C-95AB-30EA2950CD88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{E64B28F3-9B1B-4FB3-BB48-18C9D1108754}"
+	ProjectSection(SolutionItems) = preProject
+		images\background.jpg = images\background.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{880B0090-B581-4920-A00E-09DA7E7CC744}"
+	ProjectSection(SolutionItems) = preProject
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3D682D6-5C06-4EA5-BE7C-88A9578F95A4}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E64B28F3-9B1B-4FB3-BB48-18C9D1108754} = {80414CF2-67AC-436C-95AB-30EA2950CD88}
+		{880B0090-B581-4920-A00E-09DA7E7CC744} = {80414CF2-67AC-436C-95AB-30EA2950CD88}
+	EndGlobalSection
+EndGlobal
